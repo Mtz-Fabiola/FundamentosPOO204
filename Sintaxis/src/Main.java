@@ -69,6 +69,8 @@ public class Main {
 //        double datodecimal = scn.nextDouble();
 //
 //        System.out.println("Cualquier dato" + dato);
+
+
 //        System.out.println("Dato Entero" + datoentero);
 //        System.out.println("Dato Decimal" + datodecimal);
 
