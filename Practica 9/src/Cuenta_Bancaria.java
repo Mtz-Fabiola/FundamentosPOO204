@@ -2,11 +2,49 @@ import javax.swing.JOptionPane;
 
 public class Cuenta_Bancaria {
 
+    public String getNumCuenta() {
+        return numCuenta;
+    }
+
+    public void setNumCuenta(String numCuenta) {
+        this.numCuenta = numCuenta;
+    }
+
+    public String getNombre_titular() {
+        return nombre_titular;
+    }
+
+    public void setNombre_titular(String nombre_titular) {
+        this.nombre_titular = nombre_titular;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+    public Cuenta_Bancaria(String numCuenta, String nombre_titular, int edad, double saldo) {
+        this.numCuenta = numCuenta;
+        this.nombre_titular = nombre_titular;
+        this.edad = edad;
+        this.saldo = saldo;
+    }
+
     // ATRIBUTOS
-    public String numCuenta;
-    String nombre_titular;
-    int edad;
-    double saldo;
+    private String numCuenta;
+    private String nombre_titular;
+    private int edad;
+    private double saldo;
 
     // METODOS
     public double consultar_saldo() {
