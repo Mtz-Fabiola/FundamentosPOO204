@@ -17,10 +17,11 @@ public class FormConsulta extends javax.swing.JFrame {
     private UserCRUD crud;
     /**
      * Creates new form FormConsulta
-     */
+     */ 
     public FormConsulta() {
         initComponents();
         crud = new UserCRUD();
+ 
     }
 
     /**
